@@ -216,17 +216,18 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 	end,
 	["Default"] = false
 })
-if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' then
+if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
 	local oasjdiadhasudba = LIB("Whitelist", {
 	["Name"]  = "PRIVATE VERSION USER",
 	["Function"] = function(callback)
+		LegoSmoke.CreateDivider("PRIVATE")
 		loadstring(game:HttpGet('https://raw.githubusercontent.com/fuahsfpgagfsagf9we8gadsuea/rgaadfgugeoafbvpuga8egfaf/main/fasfuheha79cge7gafafeadfe.lua', true))()
 		if callback then
 		end
 	end,
 	["Default"] = false
 })
-if game.Players.LocalPlayer.Name == 'TheNewFunction' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
+if game.Players.LocalPlayer.Name == 'TheNewFunction' then
 	local oasjdiadhasudba = LIB("Whitelist", {
 	["Name"]  = "OWNER",
 	["Function"] = function(callback)
