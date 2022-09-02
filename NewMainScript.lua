@@ -216,15 +216,7 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 	end,
 	["Default"] = false
 })
-if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
-	local gfhea9fhafwea = LIB("Whitelist", {
-	["Name"]  = "PRIVATE VERSION USER",
-	["Function"] = function(callback)
-		if callback then
-		end
-	end,
-	["Default"] = false
-})
+
 if game.Players.LocalPlayer.Name == 'TheNewFunction' then
 	local oasjdiadhasudba = LIB("Whitelist", {
 	["Name"]  = "OWNER",
