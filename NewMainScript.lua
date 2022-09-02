@@ -225,7 +225,7 @@ if game.Players.LocalPlayer.Name == 'TheNewFunction' or game.Players.LocalPlayer
 	end,
 	["Default"] = false
 })
-elseif game.Players.LocalPlayer.Name == 'hamza_mohamed667girl' or game.Players.LocalPlayer.Name == 'gegregwrgwrqe' then
+elseif game.Players.LocalPlayer.Name == 'hamza_mohamed667girl' or game.Players.LocalPlayer.Name == 'gegregwrgwrqe' or game.Players.LocalPlayer.Name == '201h312' then
 	local kashjdashdbadoihadbwau = LIB("Whitelist", {
 	["Name"]  = "PREMIUM",
 	["Function"] = function(callback)
