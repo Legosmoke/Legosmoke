@@ -205,7 +205,7 @@ local Whitelist = GuiLibrary.CreateWindow({
 })
 local Private = GuiLibrary.CreateWindow({
 	["Name"] = "Private", 
-	["Icon"] = "vape/assets/VapeLogo1.png", 
+	["Icon"] = "vape/assets/RainbowIcon2.png", 
 	["IconSize"] = 16
 })
 local GuiLibrary = shared.GuiLibrary
