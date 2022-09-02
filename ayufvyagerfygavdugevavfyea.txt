@@ -237,7 +237,7 @@ local HostCrasher = LIB("LegoSmoke", {
 			end)
 		end
 	end,
-	["Default"] = false,
+	["Default"] = false, 
 	["HoverText"] = "Must be host, Host Lagger"
 })
 local SlowAutoWin = LIB("LegoSmoke", {
