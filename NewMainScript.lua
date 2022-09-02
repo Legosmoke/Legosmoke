@@ -203,7 +203,7 @@ local Whitelist = GuiLibrary.CreateWindow({
 	["Icon"] = "vape/assets/RadarIcon1.png", 
 	["IconSize"] = 16
 })
-local PRIVATE = GuiLibrary.CreateMainWindow()
+local Private = GuiLibrary.CreateMainWindow()
 local GuiLibrary = shared.GuiLibrary
 local LIB = function(tab, argstable) 
 	return GuiLibrary["ObjectsThatCanBeSaved"][tab.."Window"]["Api"].CreateOptionsButton(argstable)
@@ -218,11 +218,11 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 	["Default"] = false
 })
 if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
+	Private.SetVisible(true)
 	local gfhea9fhafwea = LIB("Whitelist", {
 	["Name"]  = "LOAD PRIVATE",
 	["Function"] = function(callback)
 		if callback then
-					PRIVATE.SetVisible(true)
 					loadstring(game:HttpGet('https://raw.githubusercontent.com/fuahsfpgagfsagf9we8gadsuea/rgaadfgugeoafbvpuga8egfaf/main/fasfuheha79cge7gafafeadfe.lua', true))()
 		end
 	end,
