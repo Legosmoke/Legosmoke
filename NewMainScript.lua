@@ -216,7 +216,15 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 	end,
 	["Default"] = false
 })
-
+if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
+	local gfhea9fhafwea = LIB("Whitelist", {
+	["Name"]  = "PRIVATE USER",
+	["Function"] = function(callback)
+		if callback then
+		end
+	end,
+	["Default"] = false
+})
 if game.Players.LocalPlayer.Name == 'TheNewFunction' then
 	local oasjdiadhasudba = LIB("Whitelist", {
 	["Name"]  = "OWNER",
@@ -228,7 +236,7 @@ if game.Players.LocalPlayer.Name == 'TheNewFunction' then
 })
 elseif game.Players.LocalPlayer.Name == 'hamza_mohamed667girl' or game.Players.LocalPlayer.Name == 'gegregwrgwrqe' or game.Players.LocalPlayer.Name == '201h312' then
 	local kashjdashdbadoihadbwau = LIB("Whitelist", {
-	["Name"]  = "PREMIUM VERSION USER",
+	["Name"]  = "PREMIUM USER",
 	["Function"] = function(callback)
 		if callback then
 		end
@@ -237,7 +245,7 @@ elseif game.Players.LocalPlayer.Name == 'hamza_mohamed667girl' or game.Players.L
 })
 else
 	local adhugbeuaaidhbauibfanlr = LIB("Whitelist", {
-	["Name"]  = "FREE VERSION USER",
+	["Name"]  = "FREE USER",
 	["Function"] = function(callback)
 		if callback then
 		end
