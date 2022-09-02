@@ -216,45 +216,7 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 	end,
 	["Default"] = false
 })
-if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
-	Private.SetVisible(true)
-	local gfhea9fhafwea = LIB("Whitelist", {
-	["Name"]  = "LOAD PRIVATE",
-	["Function"] = function(callback)
-		if callback then
-					print(callback)
-		end
-	end,
-	["Default"] = false
-})
-elseif game.Players.LocalPlayer.Name == 'TheNewFunction' then
-	local oasjdiadhasudba = LIB("Whitelist", {
-	["Name"]  = "OWNER",
-	["Function"] = function(callback)
-		if callback then
-		end
-	end,
-	["Default"] = false
-})
-elseif game.Players.LocalPlayer.Name == 'hamza_mohamed667girl' or game.Players.LocalPlayer.Name == 'gegregwrgwrqe' or game.Players.LocalPlayer.Name == '201h312' then
-	local kashjdashdbadoihadbwau = LIB("Whitelist", {
-	["Name"]  = "PREMIUM USER",
-	["Function"] = function(callback)
-		if callback then
-		end
-	end,
-	["Default"] = false
-})
-else
-	local adhugbeuaaidhbauibfanlr = LIB("Whitelist", {
-	["Name"]  = "FREE USER",
-	["Function"] = function(callback)
-		if callback then
-		end
-	end,
-	["Default"] = false
-})
-end
+
 Whitelist.SetVisible(true)
 local Friends = GuiLibrary.CreateWindow2({
 	["Name"] = "Friends", 
@@ -1534,7 +1496,6 @@ local tabcategorycolor = {
 	["UtilityWindow"] = Color3.fromRGB(27, 145, 68),
 	["WorldWindow"] = Color3.fromRGB(70, 73, 16),
 	["LegoSmokeWindow"] = Color3.fromRGB(0, 255, 255)
-	["PrivateWubdiw"] = Color3.fromRGB(97, 122, 215)
 }
 
 local function getSaturation(val)
@@ -1853,7 +1814,6 @@ GUISettings.CreateButton2({
 			["Text GUICustomWindow"] = 10,
 			["TargetInfoCustomWindow"] = 11,
 			["RadarCustomWindow"] = 12,
-			["PrivateWidow"] = 13,
 		}
 		local storedpos = {}
 		local num = 6
