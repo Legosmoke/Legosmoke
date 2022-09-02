@@ -217,10 +217,12 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 	["Default"] = false
 })
 if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
+	Private.SetVisible(true)
 	local gfhea9fhafwea = LIB("Whitelist", {
 	["Name"]  = "LOAD PRIVATE",
 	["Function"] = function(callback)
 		if callback then
+					print(callback)
 		end
 	end,
 	["Default"] = false
