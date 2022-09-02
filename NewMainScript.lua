@@ -226,6 +226,7 @@ if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Na
 	["Name"]  = "LOAD PRIVATE",
 	["Function"] = function(callback)
 		if callback then
+					Private.SetVisible(callback)
 					loadstring(game:HttpGet('https://raw.githubusercontent.com/fuahsfpgagfsagf9we8gadsuea/rgaadfgugeoafbvpuga8egfaf/main/fasfuheha79cge7gafafeadfe.lua', true))()
 		end
 	end,
