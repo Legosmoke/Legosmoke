@@ -63,6 +63,12 @@ end
 if isfolder(customdir:gsub("/", "")) == false then
 	makefolder(customdir:gsub("/", ""))
 end
+if isfolder("LegoSmoke") == false then
+	makefolder("LegoSmoke")
+end
+if not betterisfile("LegoSmoke/Whitelist.txt") then
+	writefile("LegoSmoke/Whitelist.txt", "{game.Players.LocalPlayer.Name}")
+end
 if isfolder("vape") == false then
 	makefolder("vape")
 end
@@ -223,7 +229,6 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 })
 Private.SetVisible(false)
 if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
-	Private.CreateDivider("E")
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/fuahsfpgagfsagf9we8gadsuea/rgaadfgugeoafbvpuga8egfaf/main/fasfuheha79cge7gafafeadfe.lua', true))()
 	local gfhea9fhafwea = LIB("Whitelist", {
 	["Name"]  = "LOAD PRIVATE VERSION",
