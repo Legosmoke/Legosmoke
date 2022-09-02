@@ -38,4 +38,4 @@ function checklagback()
 	local hrp = game:GetService("Players").LocalPlayer.Character.HumanoidRootPart
 	return isnetworkowner(hrp)
 end
-
+ 
