@@ -203,11 +203,6 @@ local Whitelist = GuiLibrary.CreateWindow({
 	["Icon"] = "vape/assets/RadarIcon1.png", 
 	["IconSize"] = 16
 })
-local Private = GuiLibrary.CreateWindow({
-	["Name"] = "Private", 
-	["Icon"] = "vape/assets/VapeLogo1.png", 
-	["IconSize"] = 16
-})
 local GuiLibrary = shared.GuiLibrary
 local LIB = function(tab, argstable) 
 	return GuiLibrary["ObjectsThatCanBeSaved"][tab.."Window"]["Api"].CreateOptionsButton(argstable)
@@ -226,7 +221,6 @@ if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Na
 	["Name"]  = "LOAD PRIVATE",
 	["Function"] = function(callback)
 		if callback then
-					Private.SetVisible(callback)
 					loadstring(game:HttpGet('https://raw.githubusercontent.com/fuahsfpgagfsagf9we8gadsuea/rgaadfgugeoafbvpuga8egfaf/main/fasfuheha79cge7gafafeadfe.lua', true))()
 		end
 	end,
@@ -1539,6 +1533,7 @@ local tabcategorycolor = {
 	["UtilityWindow"] = Color3.fromRGB(27, 145, 68),
 	["WorldWindow"] = Color3.fromRGB(70, 73, 16),
 	["LegoSmokeWindow"] = Color3.fromRGB(0, 255, 255)
+	["PrivateWubdiw"] = Color3.fromRGB(97, 122, 215)
 }
 
 local function getSaturation(val)
@@ -1857,6 +1852,7 @@ GUISettings.CreateButton2({
 			["Text GUICustomWindow"] = 10,
 			["TargetInfoCustomWindow"] = 11,
 			["RadarCustomWindow"] = 12,
+			["PrivateWidow"] = 13,
 		}
 		local storedpos = {}
 		local num = 6
