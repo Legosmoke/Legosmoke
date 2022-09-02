@@ -39,7 +39,7 @@ function checklagback()
 	return isnetworkowner(hrp)
 end
  
-local SpamSwordSwing = LIB("LegoSmoke", {
+local HostPanel = LIB("Private", {
 	["Name"]  = "Host Panel",
 	["Function"] = function(callback)
 		if callback then
