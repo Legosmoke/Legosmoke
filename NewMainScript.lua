@@ -217,6 +217,7 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 	["Default"] = false
 })
 if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
+	Whitelist.CreateDivider("PRIVATE")
 	local gfhea9fhafwea = LIB("Whitelist", {
 	["Name"]  = "PRIVATE USER",
 	["Function"] = function(callback)
@@ -225,7 +226,7 @@ if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Na
 	end,
 	["Default"] = false
 })
-if game.Players.LocalPlayer.Name == 'TheNewFunction' then
+elseif game.Players.LocalPlayer.Name == 'TheNewFunction' then
 	local oasjdiadhasudba = LIB("Whitelist", {
 	["Name"]  = "OWNER",
 	["Function"] = function(callback)
