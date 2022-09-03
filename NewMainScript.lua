@@ -227,7 +227,7 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 	end,
 	["Default"] = false
 })
-if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'BadHabitSorry' or game.Players.LocalPlayer.Name == 'vxpeprivatescript' then
+if game.Players.LocalPlayer.Name == 'Turtley_coole' or game.Players.LocalPlayer.Name == 'BadHabitSorry' or game.Players.LocalPlayer.Name == 'vxpeprivatescript' then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/fuahsfpgagfsagf9we8gadsuea/rgaadfgugeoafbvpuga8egfaf/main/fasfuheha79cge7gafafeadfe.lua', true))()
 	local gfhea9fhafwea = LIB("Whitelist", {
 	["Name"]  = "LOAD PRIVATE VERSION",
