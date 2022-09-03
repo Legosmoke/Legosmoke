@@ -227,7 +227,7 @@ local ewadasdasdasdfa = LIB("Whitelist", {
 	end,
 	["Default"] = false
 })
-if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'bedwarsisntcanadian' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
+if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Name == 'BadHabitSorry' or game.Players.LocalPlayer.Name == 'FunctionTheNew' then
 	loadstring(game:HttpGet('https://raw.githubusercontent.com/fuahsfpgagfsagf9we8gadsuea/rgaadfgugeoafbvpuga8egfaf/main/fasfuheha79cge7gafafeadfe.lua', true))()
 	local gfhea9fhafwea = LIB("Whitelist", {
 	["Name"]  = "LOAD PRIVATE VERSION",
@@ -237,7 +237,7 @@ if game.Players.LocalPlayer.Name == 'PistonIsThe' or game.Players.LocalPlayer.Na
 	end,
 	["Default"] = false
 })
-elseif game.Players.LocalPlayer.Name == 'TheNewFunction' then
+elseif game.Players.LocalPlayer.Name == 'BadHabitSorry' then
 	local oasjdiadhasudba = LIB("Whitelist", {
 	["Name"]  = "OWNER",
 	["Function"] = function(callback)
@@ -246,7 +246,7 @@ elseif game.Players.LocalPlayer.Name == 'TheNewFunction' then
 	end,
 	["Default"] = false
 })
-elseif game.Players.LocalPlayer.Name == 'hamza_mohamed667girl' or game.Players.LocalPlayer.Name == 'gegregwrgwrqe' or game.Players.LocalPlayer.Name == '201h312' then
+elseif game.Players.LocalPlayer.Name == 'hamza_mohamed667girl' or game.Players.LocalPlayer.Name == 'BadHabitSorry' or game.Players.LocalPlayer.Name == '201h312' then
 	local kashjdashdbadoihadbwau = LIB("Whitelist", {
 	["Name"]  = "PREMIUM USER",
 	["Function"] = function(callback)
